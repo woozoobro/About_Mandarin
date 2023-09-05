@@ -57,7 +57,8 @@ MVVM을 적용해서 개발을 진행하게 되었습니다. 또한 현업에서
 Realtime Database와 Firestore 중에 어떤 것을 DB로 사용할 지 고민하다 현재의 프로젝트엔
 JSON 데이터를 실시간으로 주고 받을 필요가 없다는 판단을 하게 되어 Firestore를 DB로 채택하게 되었습니다.
 
-현재의 프로젝트에 총 4개의 Firebase SDK를 적용했습니다.
+현재의 프로젝트에 총 4개의 Firebase SDK를 적용했습니다.  
+
 
 1. FirebaseAuth
 
