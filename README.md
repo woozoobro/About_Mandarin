@@ -137,8 +137,7 @@ Metadata를 저장하는 것에 실패를 했지만 NSObject를 상속받은 cla
 
 그래서 두 번째로 시도했던 NSKeydArchiver를 사용한 캐싱으로 Metadata의 저장을 성공하고메모리 Trace를 재진행 했을 때 비정상적인 메모리 누수를 해결하게 되었습니다.  
 
-![메모리 해결](https://github.com/woozoobro/About_Mandarin/assets/99154211/8aba719e-3746-461f-a0c5-606a26449a86)
-*메모리 이슈 해결*
+![메모리 해결](https://github.com/woozoobro/About_Mandarin/assets/99154211/8aba719e-3746-461f-a0c5-606a26449a86)*메모리 이슈 해결*
 
 ## 🔍 Posts 검색 기능
 트위터 혹은 메타와 유사한 피드의 UI를 메인 화면에서 보여주고 있었습니다.
