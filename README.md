@@ -1,9 +1,8 @@
 # About_Mandarin
 
 
-## Firebase를 활용한 SwiftUI 프로젝트 입니다.\nUI/UX 작업은 개발과 함께 진행 했습니다.
+>## Firebase를 활용한 SwiftUI 프로젝트 입니다. UI/UX 작업은 개발과 함께 진행 했습니다.
 
-  
 ## 🌟 핵심 키워드
 
 - SwiftUI (iOS 16.0) + MVVM
@@ -18,4 +17,5 @@
 - Custom SwiftUI Component
 
 ## 🏭 구조
+![MVVM](https://github.com/woozoobro/About_Mandarin/assets/99154211/f8bf5b9c-8573-416c-90b7-2f7022d47fb8)
 
