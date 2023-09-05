@@ -14,7 +14,7 @@
 ### 프로젝트
 | 프로젝트 확인 | 프로젝트 게시 | 리더에게 연락 |
 | :-----: | :-----: | :-----: |
-| ![프로젝트 확인](https://github.com/woozoobro/About_Mandarin/assets/99154211/332523e3-93c8-46e4-9b83-7ed8b5b54478) | ![모집글 작성](https://github.com/woozoobro/About_Mandarin/assets/99154211/5934b83b-7f73-4755-9442-d0f3cea20999) | ![URL연락](https://github.com/woozoobro/About_Mandarin/assets/99154211/d492212c-b737-4469-804d-5c38fc3520d8) |
+| ![프로젝트 확인](https://github.com/woozoobro/About_Mandarin/assets/99154211/332523e3-93c8-46e4-9b83-7ed8b5b54478) | ![모집글 작성](https://github.com/woozoobro/About_Mandarin/assets/99154211/5934b83b-7f73-4755-9442-d0f3cea20999) | ![URL연락](https://github.com/woozoobro/About_Mandarin/assets/99154211/2a380b18-f268-469c-9675-b42fe4e889bd) |
 
 ### 프로필
 
