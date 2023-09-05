@@ -6,10 +6,10 @@
 
 ## 📱 앱 스샷
 
-| 홈 Pagination |  | |
+| 홈 Pagination | 게시글 | 푸시 알림 |
 | :-----: | :-----: | :-----: |
-| ![홈 스크롤](https://github.com/woozoobro/About_Mandarin/assets/99154211/c9f717a8-9f7c-43cc-a794-2eb5cc593982)
- | | |
+| ![홈 스크롤](https://github.com/woozoobro/About_Mandarin/assets/99154211/c9f717a8-9f7c-43cc-a794-2eb5cc593982) | ![게시글](https://github.com/woozoobro/About_Mandarin/assets/99154211/cbc6c0db-9209-4a35-bb0c-7ac246e7e3fa) | ![푸시 알림](https://github.com/woozoobro/About_Mandarin/assets/99154211/3281b908-99b2-4e70-a0e1-081f318eaf5a) |
+
 ## 🌟 핵심 키워드
 
 - SwiftUI (iOS 16.0) + MVVM
