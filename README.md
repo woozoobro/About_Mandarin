@@ -6,9 +6,23 @@
 
 ## 📱 앱 스샷
 
+### 홈
 | 홈 Pagination | 게시글 | 푸시 알림 |
 | :-----: | :-----: | :-----: |
 | ![홈 스크롤](https://github.com/woozoobro/About_Mandarin/assets/99154211/c9f717a8-9f7c-43cc-a794-2eb5cc593982) | ![게시글](https://github.com/woozoobro/About_Mandarin/assets/99154211/cbc6c0db-9209-4a35-bb0c-7ac246e7e3fa) | ![푸시 알림](https://github.com/woozoobro/About_Mandarin/assets/99154211/3281b908-99b2-4e70-a0e1-081f318eaf5a) |
+
+### 프로젝트
+| 프로젝트 확인 | 프로젝트 게시 | 리더에게 연락 |
+| :-----: | :-----: | :-----: |
+| ![프로젝트 확인](https://github.com/woozoobro/About_Mandarin/assets/99154211/332523e3-93c8-46e4-9b83-7ed8b5b54478) | ![모집글 작성](https://github.com/woozoobro/About_Mandarin/assets/99154211/5934b83b-7f73-4755-9442-d0f3cea20999) | ![URL연락](https://github.com/woozoobro/About_Mandarin/assets/99154211/d492212c-b737-4469-804d-5c38fc3520d8)
+ |
+
+### 프로필
+
+| 프로필 로그인 | 프로필 기능 | 검색 기능 |
+| :-----: | :-----: | :-----: |
+| ![프로필 로그인](https://github.com/woozoobro/About_Mandarin/assets/99154211/f4dd557b-2fff-4934-86e4-f45abfb4c74d) | ![프로필 기능](https://github.com/woozoobro/About_Mandarin/assets/99154211/31ecb10e-492c-4ab6-a247-104f2eb8a316) |![검색 기능](https://github.com/woozoobro/About_Mandarin/assets/99154211/0068e262-200b-4f06-96c1-d1c7248e3b66) |
+
 
 ## 🌟 핵심 키워드
 
