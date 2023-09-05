@@ -1,8 +1,7 @@
 # About_Mandarin
 
 
-## Firebase를 활용한 SwiftUI 프로젝트 입니다.
-## UI/UX 작업은 개발과 함께 진행 했습니다.
+## Firebase를 활용한 SwiftUI 프로젝트 입니다.\nUI/UX 작업은 개발과 함께 진행 했습니다.
 
   
 ## 🌟 핵심 키워드
