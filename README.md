@@ -141,6 +141,7 @@ Full - Text Search가 불가능하다는 걸 알게 되었습니다. 따로 검�
 Firebase 공식 문서에서 추천하는 방법 중 Algolia SDK를 검토하게 되었습니다.
 
 추후 검색어 추천 기능과 카테고라이징을 위한 확장성이 용이하다는 장점 때문에 해당 SDK를 적용했습니다.
+Search 기능이 있는 Custom한 SwiftUI View를 만들어 검색 엔진과 유사한 Search 기능을 구현했습니다.
 
 ## ⚙️ Custom SwiftUI Component
 
