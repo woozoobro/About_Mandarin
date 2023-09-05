@@ -59,7 +59,8 @@ JSON 데이터를 실시간으로 주고 받을 필요가 없다는 판단을 �
 
 현재의 프로젝트에 총 4개의 Firebase SDK를 적용했습니다.
 
-1. FirebaseAuth  
+1. FirebaseAuth
+
 싱글톤 패턴으로 Auth를 관리해주는 AuthenticationManager 객체를 구성해 ViewModel에서
 로그인이 필요한 경우 AuthenticationManager를 호출하게 구성했습니다.
 
@@ -70,7 +71,8 @@ DB에 저장되는 유저 정보인 DBUser 정보의 경우 앱 내에 단 하�
 해당 정보를 저장, 관리해주고 정보를 효율적으로 가져올 수 있는 UserStore 객체를 구성해 
 불필요한 Networking을 최소화 했습니다.
 
-2. FirebaseFirestore  
+2. FirebaseFirestore
+
 Firestore는 Collection으로 구분되는 그룹이 있고, 해당 Collection 안에 document형태의 문서들,
 그리고 이 문서들 안의 필드와 해당 필드에 대한 값을 Key : Value 형태로 데이터를 저장하게 됩니다.
 지금과 같은 NoSQL DB의 경우 Reference를 통한 참조가 불가능하다는 걸 알게 되었습니다.
@@ -82,14 +84,16 @@ Firestore는 Collection으로 구분되는 그룹이 있고, 해당 Collection �
 그리고 Pagination에 필요한 Query를 구성하거나 SnapshotListener를 추가할 수 있는 
 Query가 필요한 경우 Generic하게 사용할 수 있도록 Query에 대한 Extension을 구성해줬습니다.
 
-3. FirebaseStorage  
+3. FirebaseStorage
+
 이전과 마찬가지로 싱글톤 패턴으로 StorageManager 객체를 구성했습니다.
 개발하며 한 가지 적용하지 못해 아쉬웠던 부분은 Firebase 자체 Extension을 사용하면
 Storage에 데이터를 업로드할 시 효율적으로 압축이 가능하다는 걸 발견했지만 해당 기능을 구현을 하기엔
 물리적인 시간이 부족하다는 판단에 클라이언트쪽에서 이미지를 업로드 할 시에 압축을 진행하는 방법으로
 대체하게 되었습니다.
 
-4. FirebaseMessaging  
+4. FirebaseMessaging
+
 채팅에 대한 푸시 알림 기능의 구현이 필요해, 조사해본 결과 FCM만 사용해선
 해당 기능의 구현이 어렵다는 걸 알게 되었습니다.
 
