@@ -3,6 +3,10 @@
 
 >## Firebase를 활용한 SwiftUI 프로젝트 입니다. UI/UX 작업은 개발과 함께 진행 했습니다.
 
+개발 이외의 작업들
+#### [기획](https://github.com/woozoobro/About_Mandarin/blob/main/기획%2C%20디자인/기획.md)
+#### [디자인](https://github.com/woozoobro/About_Mandarin/blob/main/기획%2C%20디자인/디자인.md)
+#### [외부 활동](https://github.com/woozoobro/About_Mandarin/blob/main/기획%2C%20디자인/외부%20활동.md)
 
 ## 📱 앱 스샷
 
