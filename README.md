@@ -1,6 +1,6 @@
 # About_Mandarin
 
-[앱 스토어](https://apps.apple.com/kr/app/mandarin/id6466782712)
+[앱 스토어 상세](https://apps.apple.com/kr/app/mandarin/id6466782712)
 
 
 >## Firebase를 활용한 SwiftUI 프로젝트 입니다. UI/UX 작업은 개발과 함께 진행 했습니다.
