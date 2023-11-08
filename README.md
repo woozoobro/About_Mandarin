@@ -127,7 +127,7 @@ node.js를 통해 Firebase function을 Firebase와 연결된 google cloud에 dep
 학습한 후 푸시 알림 기능을 구현하게 되었습니다.
 ![Cloud Functions](https://github.com/woozoobro/About_Mandarin/assets/99154211/2928367f-cbab-4c70-94d5-4b285789640a)
 
-## 🔫 Trouble Shooting (메모리 성능 이슈)
+## 🔫 Trouble Shooting (메모리 누수)
 포스팅 된 콘텐츠에 URL이 포함되어 있는 경우 String 값에서 URL을 detect, 해당 URL을 바탕으로
 링크에 대한 Preview기능을 구현하게 되었습니다.
 
