@@ -31,20 +31,20 @@ ___
 
 
 ## 🌟 핵심 키워드
-
 - SwiftUI (iOS 16.0) + MVVM
 - Firebase Authentication / SSO 로그인
 - FCM + Cloud Functions 푸시 알림 기능
-- Modern Swift Concurrency (async- await)
+- Modern Swift Concurrency (async-await)
 - Pagination
 - Image Cache
 - Memory Trouble Shooting
 - LPLinkPreview / NSKeydArchiver 
 - Posts Search (Algolia)
 - Custom SwiftUI Component
+- WebKit + Framer
 
 ## 🏭 구조
-![MVVM](https://github.com/woozoobro/About_Mandarin/assets/99154211/f8bf5b9c-8573-416c-90b7-2f7022d47fb8)
+![image](https://github.com/woozoobro/About_Mandarin/assets/99154211/a2c2c6ed-8ffe-4388-a352-0ec330e077e0)
 
 Apple Developer Forum에 기고된 “Stop using MVVM for SwiftUI” 글을 읽은 뒤
 SwiftUI에 맞는 아키텍쳐가 정말 MVVM이 맞는지 고민을 해보게 되었습니다.
@@ -57,6 +57,23 @@ MVVM을 적용해서 개발을 진행하게 되었습니다. 또한 현업에서
 그리고 Apple의 SwiftUI Tutorial인 Scrumdinger 어플을 제작해보며 
 현재 같이 작은 규모에서 구조를 설계하게 된다면 Model - View 구조로도 
 충분하겠다는 생각을 해보게 되었습니다.
+
+## Performance Optimization
+Pagination을 통해 5페이지쯤 뷰가 렌더링된 이후비정상적인 Hang과 Hitches가 발생했습니다.
+네비게이션 동작의 경우 1초를 초과하는 현상이 나타났고 이를 Instruments를 통해 프로파일링 했습니다.
+![Screenshot 2023-10-30 at 2 03 26 PM](https://github.com/woozoobro/About_Mandarin/assets/99154211/bf9780bd-20e3-48db-bc04-7d26ce0fceaf)
+
+SwiftUI가 제공하는 기본 컴포넌트 중 ForEach의 Binding init을 사용하게 될 때, 
+예기치 못한 상태변화가 발생해 전체 array가 업데이트 되버리는 게 원인이었습니다.
+
+Binding으로 넘기지 않게 Data를 뿌려주는 구조를 변경했고 
+앱의 반응성이 1초에서 -> 200ms로 향상되었습니다. 
+
+지금처럼 상태관리가 의도와는 다르게 동작할 경우 TCA가 필요한지 고민해보고
+이를 영상으로 정리했습니다.
+
+https://www.youtube.com/watch?v=gs5Iw9TwTeU
+
 
 ## Firebase
 
