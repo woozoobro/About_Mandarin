@@ -59,7 +59,7 @@ MVVM을 적용해서 개발을 진행하게 되었습니다. 또한 현업에서
 충분하겠다는 생각을 해보게 되었습니다.
 
 ## Performance Optimization
-Pagination을 통해 5페이지쯤 뷰가 렌더링된 이후비정상적인 Hang과 Hitches가 발생했습니다.
+Pagination을 통해 5페이지쯤 뷰가 렌더링된 이후 비정상적인 Hang과 Hitches가 발생했습니다.
 네비게이션 동작의 경우 1초를 초과하는 현상이 나타났고 이를 Instruments를 통해 프로파일링 했습니다.
 ![Screenshot 2023-10-30 at 2 03 26 PM](https://github.com/woozoobro/About_Mandarin/assets/99154211/bf9780bd-20e3-48db-bc04-7d26ce0fceaf)
 
